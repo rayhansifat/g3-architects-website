@@ -224,12 +224,25 @@ nav li a{
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
      }
-     
+
 .sponsored-banner{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
+
+footer{
+   margin-left: 10%;
+   margin-bottom: 100px;
+    padding-top: 25px;
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    left: 240px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
 
 
 
