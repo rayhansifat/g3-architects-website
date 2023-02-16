@@ -131,29 +131,33 @@ nav li a{
    display: grid;
    grid-template-columns: repeat(1, 1fr);
    justify-items: center;
-   gap: 20px;
+   
 }
 .architect-heading{
     text-align: center;
-    margin-bottom: 50px;
+    
 }
 .architect-heading h1{
     font-weight: 700;
     font-size: 45px;
 }
 .architect-heading p{
-    padding-left: 100px;
+    margin-left: 100px;
+    padding-left: 150px;
     padding-right: 100px;
-    align-items: center;
+    text-align: left;
+    
 }
 .architect-banner-details{
-padding-left: 30px;
-width: 586px;
-height: 171px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-border-radius: 8px;
+    
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 }
 
 .architect-banner-btn{
@@ -215,5 +219,36 @@ border-radius: 8px;
         gap: 20px;
         
     }
+    .architect-banner{
+        flex-direction: column;
+    }
+    .architect-heading p{
+        margin: 0 0 0 10px;
+        padding: 0;
+        
+    }
+    .architect-banner-img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
-}
+    .architect-banner-details{
+        margin: 20px;
+        width: 80%;
+    }
+    .architect-banner-btn{
+        margin-left: 10px;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        border: 0;
+        padding: 18px 35px;
+        height: 64px;
+        border-radius: 10px;
+        background: #fd6e0a;
+        margin-bottom: 60px;
+    }
+    }
+  
