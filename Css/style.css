@@ -195,6 +195,7 @@ nav li a{
 .icon{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 .icon-section{
     
@@ -209,6 +210,25 @@ nav li a{
 }
 
 
+
+.sponsored-banner-details{
+    text-align: center;
+}
+.sponsored-banner-details p{
+    margin-bottom: 60px;
+    color: #727272;
+}
+
+.sponsored-banner-img{
+    
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+     }
+     
+.sponsored-banner{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
@@ -290,6 +310,15 @@ nav li a{
     .icon{
         flex-direction: column;
         align-items: center;
+    }
+
+
+    .sponsored-banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsored-banner-img{
+        margin-bottom: 20px;
     }
 
     }
